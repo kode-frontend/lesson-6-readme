@@ -66,4 +66,16 @@ fetch("https://stoplight.io/mocks/kode-education/kode-bank/27774162/api/auth/log
 - https://github.com/akinncar/react-native-mask-text
 - https://github.com/uNmAnNeR/imaskjs/tree/master/packages/react-native-imask
 
+## Примерная структура проекта
+
+В src/features/ - хранятся данные и работа с ними, на ружу отдаются методы взаимодействия
+Например src/features/auth - фича авторизации, стейт, хуки, модельки
+В src/shared - код для переиспользования
+src/shared/ui - вся наша верстка через сторибук
+src/shared/api - работа с запросами
+src/shared/lib - мелкие хелперы по типу форматирования даты и прочее
+src/shared/types - общие типы, возможно кастомные и полезные дженерики
+В src/pages - весь роутинг, сборка страниц, подключение фичей, коннекторы
+В src/app - все провайдеры точка входа в приложение, собирает весь флоу приложения(то что в src/pages)
+
 ## Удачи!
