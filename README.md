@@ -66,4 +66,4 @@ fetch("https://stoplight.io/mocks/kode-education/kode-bank/27774162/api/auth/log
 - https://github.com/akinncar/react-native-mask-text
 - https://github.com/uNmAnNeR/imaskjs/tree/master/packages/react-native-imask
 
-# Удачи!
+## Удачи!
